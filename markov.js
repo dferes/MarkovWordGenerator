@@ -60,3 +60,8 @@ class MarkovMachine {
     return markovText.substr(0,markovText.length-1);
   }
 }
+
+
+module.exports = {
+  MarkovMachine
+};
